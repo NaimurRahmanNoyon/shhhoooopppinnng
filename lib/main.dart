@@ -24,7 +24,11 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: Scaffold(),
+      home: Scaffold(
+        body: Center(
+          child: Text("T"),
+        ),
+      ),
     );
   }
 }
